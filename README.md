@@ -31,27 +31,29 @@ It's important that, for every official analysis we host (merged to Master branc
 ### Storage and downloading<a name="storage_downloading"></a>
 Because of the size of the datasets we're analysing, and because they may be repeatedly updated, we won't store them in the main repository. We will download them, on an as-needed basis, into users' `./localdata` folders. Note that `gitignore` is set to ignore the contents of `./localdata`. All analyses should access the data files in `./localdata/*` by relative path. Filenames and version names should be consistent across analyses. We can either host the files on github, or download them from the original source.
 
-### Data descriptions in the readmes<a name="data_readmes"></a>
-Every dataset should have a column-by-column description of every variable. Raw datasets that need to be downloaded, should have a description of the date they were accessed, a url, and other pertinent metadata. 
-
-Intermediate datasets, produced by merging, or transforming, or cleaning up data should be described in full.
+### Descriptions<a name="data_readmes"></a>
+Every dataset should be described so that their contents, their purpose, and their provenance are clear. 
+* Raw datasets, to be downloaded from an external source, should have be given descriptions of the date they were accessed, the url, and other pertinent metadata. 
+* Intermediate datasets, produced by merging, or transforming, or cleaning up data, should be described.
+* Final datasets, on which the analyses are conducted, should be described in full. With column-by-column descriptions of each variable.
 
 It might be a good idea to have separate scripts for the data manipulation and data analysis/visualisation steps.
 
-### Data formats<a name="data_formats"></a>
+### Formats<a name="data_formats"></a>
 Tabular data should be:
-* `.csv`(comma delimited, double quote text delimiters)
-* utf8 (this should be strongly enforced)
-* single table
+* `.csv`. Comma delimited, double quote text delimiters. Alternative plain text formats are probably fine (`tsv`, `ssv`)
+* `utf8` (this should be strongly enforced)
+* a single table per sheet (no sheets with multiple tables)
 * No empty lines
 * use 'NaN' or 'NA' to indicate missing data
+
+`json` is probably better than `xml`, if we have a choice (open for discussion).
 
 ## Documentation and Style<a name="documentation"></a>
 Yeah yeah. Everyone agrees that code needs to be documented. And everyone says they're going to do it. But we never document to the level we aspire. Documentation is a pain, it sometimes feels like a distraction. 
 
 ### Comments<a name="documentation_comments"></a>
-Please comment your code, as fully as possible.
-
+Please comment your code, as fully as possible. Within sane limits.
 * for functions, explain what arguments the function takes, the value it returns, and what the general purpose of the function is.
 * for procedural analyses (e.g. most R analyses) please lay out the work flow.
 * use descriptive variable names, that don't repeat, as the best kind of comment.
@@ -59,11 +61,10 @@ Please comment your code, as fully as possible.
 ### Readmes<a name="documentation_readmes"></a>
 The readmes should be in markdown (`.md`) format. At a minimum, a readme needs to describe the data and its provenance in detail. It needs to describe all files, including code. It should explain the broad methods used, in cleaning, merging, and analysing data. And it should explain the major conclusions.
 
-Please use correct headings and document structure. Variable names, and single line code samples, should be flanked with "\`" the backtick code delimiter. Code blocks should be fenced in with three code tick format. [There are plenty of cheatsheets available](https://github.com/adam-p/markdown-here/wiki/Markdown-Here-Cheatsheet). The emphasis here is on readablity and clarity, not enforcing any one style.
+Please use correct headings and document structure. Variable names, and single line code samples, should be flanked with "\`", the backtick code delimiter. Code blocks should be fenced in with three code tick format. [There are plenty of cheatsheets available](https://github.com/adam-p/markdown-here/wiki/Markdown-Here-Cheatsheet). The emphasis here is on readablity, clarity, and consistency. We're not necessarily trying to enforce any one style.
 
 ### Style<a name="documentation_style"></a>
 Pick a style and stick with it, within an analysis. 
-
 * camel case OR underscores
 * consistent use of capitalisation for functions, variables, and classes
 * it would be really nice if Python analyses tried to [adhere to to Pep 8](https://www.python.org/dev/peps/pep-0008/)
