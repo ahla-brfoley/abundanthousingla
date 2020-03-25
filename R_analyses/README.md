@@ -11,13 +11,11 @@ Where possible, we should try and use a common set of packages. This will make o
 
 Note: Some of these packages have complicated dependencies. We should document these for Linux, Windows and OSX.
 
-### 
-# Directory structure and navigation
+### Directory structure and navigation
 * _here_        - constructing relative paths at a project level
 
 ### Tidyverse
-# Hadley Wickham's attempt to promote clean data 
-# and a sane approach to analyzing data, and developing tools
+Hadley Wickham's attempt to promote clean data, and a sane approach to analyzing data, and developing tools
 * _dplyr_       - reformatting dataframes in sane ways
 * _devtools_    - make packages and tools for R easily
 * _stringr_     - powerful string manipulation and language tools package
