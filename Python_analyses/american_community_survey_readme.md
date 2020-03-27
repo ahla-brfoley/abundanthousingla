@@ -9,6 +9,11 @@ To [tabulate the ACS data](https://www2.census.gov/programs-surveys/acs/summary_
 2. _An Excel template_ for a given year
 3. _An Excel geography_ file
 
+## Joining to TIGER Shapefiles
+In order to visualize the data geographically, we need to join the concatenated data files to the shape files using a GEOID.
+1. [Create the geoid variable](https://www2.census.gov/programs-surveys/acs/summary_file/2018/documentation/tech_docs/ACS_SF_TIGERLine_Shapefiles.pdf)
+2. [Join the files](https://www.census.gov/programs-surveys/geography/about/training/how-tos.html)
+
 # Variables
 The variables in the completed file are :
 * `Index` : a unique index for each line, corresponding to a particular year for a particular neighborhood.
