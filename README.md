@@ -15,10 +15,7 @@ Every folder will contain a readme that will explain the data in depth, and the 
   * [Comments](#documentation_comments)
   * [Readmes](#documentation_readmes)
   * [Style](#documentation_style)
-4. [R Analyses](#r_analyses)
-  * [Relative file location](#r_relative_paths)
-  * [UTF8](#r_utf8)
-5. [Python Analyses](#python_analyses)
+
 
 # INSTRUCTIONS TO CONTRIBUTORS<a name="for_contributors"></a>
 These guidelines are meant to help, not hinder. Because this is a volunteer effort, and everyone is encouraged to contribute, we don't want to be too restrictive. So when you start an analysis don't worry too much about following the guidelines to the letter. Instead, explore, ask questions, and use the tools that you can.
@@ -68,20 +65,4 @@ Pick a style and stick with it, within an analysis.
 * camel case OR underscores
 * consistent use of capitalisation for functions, variables, and classes
 * it would be really nice if Python analyses tried to [adhere to to Pep 8](https://www.python.org/dev/peps/pep-0008/)
-
-## R analyses<a name="r_analyses"></a>
-The major tools that we should expect people to be able to use are Rstudio and jupyter notebook (with an R kernel).
-
-### Relative file location<a name="r_relative_paths"></a>
-In order to access files from a relative location in R (without directly editing the script with `setwd()`) every time use `library(here)`. This will set the path root to the git repo root (the folder containing `.git`). If you're using Rstudio, first set your working directory in the console or the 'More' dropdown list in the file browser on the bottom right.
-
-### UTF8<a name="r_utf8"></a>
-Character encoding can be a nightmare. It's handled pretty well in Python, but it can be tricky in R. We need to spend a bit of effort ensuring that all files are opened and written in utf-8, to maximise compatibility among datasets, languages, and operating systems.
-
-[https://support.rstudio.com/hc/en-us/articles/200532197-Character-Encoding](See how to do this.
-
-## Python analyses<a name="python_analyses"></a>
-Python 2.7 is dead. Let's only use Python >3.6. 
-
-We should probably just, wherever possible, use Jupyter Notebook instead of worrying about Pycharm or other dev environments? This will need to be discussed---maybe let's watch what happens, and answer this question later.
 

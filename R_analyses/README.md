@@ -6,6 +6,15 @@ For those of you who aren't as familiar with R, analyses will likely tend toward
 
 Having said that, we still should aim for usability standards. As much as we can, we should try to make our code work, without editing, directly from the Master branch git hub repository. That is, the urls should work. Collaborators shouldn't have to insert their own paths, or other values into the code to get it to function. We shouldn't have to comment/uncomment lines too often.
 
+## Relative file location<a name="r_relative_paths"></a>
+In order to access files from a relative location in R (without directly editing the script with `setwd()`) every time use `library(here)`. This will set the path root to the git repo root (the folder containing `.git`). If you're using Rstudio, first set your working directory in the console or the 'More' dropdown list in the file browser on the bottom right.
+
+## UTF8<a name="r_utf8"></a>
+Character encoding can be a nightmare. It's handled pretty well in Python, but it can be tricky in R. We need to spend a bit of effort ensuring that all files are opened and written in utf-8, to maximise compatibility among datasets, languages, and operating systems.
+
+[https://support.rstudio.com/hc/en-us/articles/200532197-Character-Encoding](See how to do this.
+
+
 ## Recommended packages
 Where possible, we should try and use a common set of packages. This will make our analyses more comparable, and will build up a level of shared expertise that will help us check each others' work, and help each other with problems.
 
@@ -35,5 +44,3 @@ Hadley Wickham's attempt to promote clean data, and a sane approach to analyzing
 * _googleway_   - interactive google maps
 * _ggpol_       - an extension of ggplot for political charts
 * _geosphere_   - spherical trigonometry functions for geographic applications
-
-
