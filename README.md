@@ -15,9 +15,11 @@ Every folder will contain a readme that will explain the data in depth, and the 
   * [Comments](#documentation_comments)
   * [Readmes](#documentation_readmes)
   * [Style](#documentation_style)
+4. [To Do](#to_do)
+  * [Data Curation](#data_curation)
+  * [Open Research](#open_research)
 
-
-# INSTRUCTIONS TO CONTRIBUTORS<a name="for_contributors"></a>
+## INSTRUCTIONS TO CONTRIBUTORS<a name="for_contributors"></a>
 These guidelines are meant to help, not hinder. Because this is a volunteer effort, and everyone is encouraged to contribute, we don't want to be too restrictive. So when you start an analysis don't worry too much about following the guidelines to the letter. Instead, explore, ask questions, and use the tools that you can.
 
 But best-policy guidelines will be extremely helpful in the long run. Let's clearly document our code (see below) with comments, readmes, and sensible variable names. Let's clearly document our data sources. Let's use the best, vetted packages and libraries. And let's structure our repository in a sensible way that's clean, light weight, easy to navigate.
@@ -66,3 +68,12 @@ Pick a style and stick with it, within an analysis.
 * consistent use of capitalisation for functions, variables, and classes
 * it would be really nice if Python analyses tried to [adhere to to Pep 8](https://www.python.org/dev/peps/pep-0008/)
 
+## To Do<a name="to_do"></a>
+Let's keep a list of open topics that we'd really like to work on, ranging from apis and data processing tasks, to research problems.
+
+### Data Curation<a name="data_curation"></a>
+* figure out the American Community Survey data model and api.
+  * `./Data_Sources/acs_data_parsing`
+  * priority med
+  
+### Open Research<a name="open_research"></a>
