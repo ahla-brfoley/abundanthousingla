@@ -1,7 +1,6 @@
 ##
 #Local Data
-
-/localdata/*
+localdata/*
 
 
 # Mac/OSX
@@ -31,4 +30,8 @@ pip-delete-this-directory.txt
 
 # R
 .Rhistory
+
+# Credentials
+APIKey.*
+credentials.*
 
