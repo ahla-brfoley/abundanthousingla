@@ -7,47 +7,20 @@ Note: The initial concatenation and analysis of NDSC data was conducted as part 
 
 ## API
 
-## Available Data
-
-
-### Variables
-The variables in the completed file for `03_2019_data_angels_rental` are :
-* `Index` : a unique index for each line, corresponding to a particular year for a particular neighborhood.
-* `Year`
-* `name`
-* `Rent_W`
-* `HHs_Rent`
-* `Income_W`
-* `Income_HHs`
-* `Unemploy_Count`
-* `Labor_Force_Pop`
-* `Burden_Count`
-* `Renter_Households`
-* `Overcrowd_Count`
-* `Total_Households`
-* `Stability_Count`
-* `Pov_Pop_Above_One_Year`
-* `American.Indian.Native.Population`
-* `Asian.Population`
-* `Black.Population`
-* `Hispanic.Population`
-* `Native.Hawaiian.Other.Pacific.Islander.Population`
-* `Other.Race.Population`
-* `Population.of.Two.or.More.Races`
-* `White.Population`
-* `Total_Population`
-* `Weighted_Median_Rent`
-* `Weighted_Median_Income`
-* `Unemployment_Rate`
-* `Rent_Burden_Rate`
-* `Overcrowded_Rate`
-* `Stability_Rate`
-* `American.Indian.Native_Pct`
-* `Asian.Population_Pct`
-* `Black.Population_Pct`
-* `Hispanic.Population_Pct`
-* `Native.Hawaiian.Other.Pacific.Islander.Population_Pct`
-* `Other.Race.Population_Pct`
-* `Population.of.Two.or.More.Races_Pct`
-* `White.Population_Pct`
-* `ACS_Census_Period`
+### Citizen_Connect_Variables__LA_.csv
+The Citizen Connect Variables dataset that can be downloaded from MyNeighborhoodData.org has the following columns:
+* `Policy Area` : `string` can be of 10 areas
+* `Dataset` : `string` one of a variable numbers of sub-areas within `Policy Area`
+* `Variable` : `string` class variable within sub-area
+* `Name` : ???
+* `Date` : Looks like `dd/mm/yyyy` format
+* `geoid` : [Geographic identifiers](https://www.census.gov/programs-surveys/geography/guidance/geo-identifiers.html)
+* `Tract` : `int` Census tract identifier
+* `Neighborhood` : `string` LA Times neighborhood
+* `Value` : `numeric` the value of the metric
+* `Denominator` : a value "For calculation of weighted averages by population, area or other number"
+* `Denominator Description` : `string` a written explanation of what the denominator is
+* `Row ID` : `string` seems to be a concatenation of `Variable`, `Date` year, and `geoid`
+* `Location 1` : `string` parentheses surrounding comma separated lattitude and longitude (decimal format)
+* `Latitude` : `numeric` often missing, but when present, the numeric value of lat from `Location 1`
+* `Longitude` : `numeric` often missing, but when present, the numeric value of long from `Location 1`
