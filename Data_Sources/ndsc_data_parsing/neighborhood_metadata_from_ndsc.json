@@ -1,0 +1,1001 @@
+{
+    "description": "https://usc.data.socrata.com/stories/s/envs-pjdv/",
+    "Demography": {
+        "description": "The demography policy area encompasses a wide range of data on the people of Los Angeles County, including information on their ages, races and ethnicities, social and living arrangements, and immigration patterns. Los Angles County is one of the most populous and diverse counties in the United States. Examining characteristics about its people is an important tool for understanding how our population has grown and changed over time, and how to allocate resources in light of those changes. For example, communities with large aging populations have very different needs than those with many young children. One can also look to demography to help explain patterns and changes across our other nine policy areas on both a neighborhood and countywide level.",
+        "vals": {
+            "Age Distribution": {
+                "description": {
+                    "definitions": {
+                        "Population Under Age 18": "The percentage of the population that is under the age of 18",
+                        "Population Ages 18-24": "The percentage of the population that is between the ages of 18 and 24",
+                        "Population Ages 25 - 34": "The percentage of the population that is between the ages of 25 and 34",
+                        "Population Ages 35 - 44": "The percentage of the population that is between the ages of 35 and 44",
+                        "Population Ages 45 - 54": "The percentage of the population that is between the ages of 45 and 54",
+                        "Population Ages 55 - 64": "The percentage of the population that is between the ages of 55 and 64",
+                        "Population Ages 65 & Older": "The percentage of the population that is ages 65 and older"
+                    },
+                    "url": "https://usc.data.socrata.com/stories/s/pqck-xjme/",
+                    "source": "American Community Survey, 5-year estimates, Table B01001",
+                    "years_available": [
+                        "2006-10",
+                        "2007-11",
+                        "2008-12",
+                        "2009-13",
+                        "2010-14",
+                        "2011-15",
+                        "2012-16",
+                        "2013-17",
+                        "2014-18"
+                    ]
+                },
+                "vals": {
+                    "Population Ages 18-24": {
+                        "count": 20903
+                    },
+                    "Population Ages 25-34": {
+                        "count": 20903
+                    },
+                    "Population Ages 35-44": {
+                        "count": 20903
+                    },
+                    "Population Ages 45-54": {
+                        "count": 20903
+                    },
+                    "Population Ages 55-64": {
+                        "count": 20903
+                    },
+                    "Population Ages 65 & Older": {
+                        "count": 20903
+                    },
+                    "Population Under Age 18": {
+                        "count": 20903
+                    }
+                }
+            },
+            "Households": {
+                "description": {
+                    "definitions": {
+                        "Average Household Size": "The average number of people living in a household",
+                        "Children in Non-Family Households": "The percentage of children under the age of 18 who live with a non-relative",
+                        "Children in Single-Parent Households": "The percentage of children under the age of 18 who live with only one parent",
+                        "Non-Family Households": "The percentage of households where people are either living alone or with non-relatives only"
+                    },
+                    "url": "https://usc.data.socrata.com/stories/s/cz7b-5e97/",
+                    "source": "American Community Survey, 5-year estimates, Tables S1101 & B09005",
+                    "years_available": [
+                        "2006-10",
+                        "2007-11",
+                        "2008-12",
+                        "2009-13",
+                        "2010-14",
+                        "2011-15",
+                        "2012-16",
+                        "2013-17"
+                    ]
+                },
+                "vals": {
+                    "Average Household Size": {
+                        "count": 18515
+                    },
+                    "Children in Family Households": {
+                        "count": 18478
+                    },
+                    "Children in Non-Family Households": {
+                        "count": 18478
+                    },
+                    "Children in Single-Parent Households": {
+                        "count": 18439
+                    },
+                    "Non-Family Households": {
+                        "count": 18531
+                    }
+                }
+            },
+            "Immigration": {
+                "description": {
+                    "definitions": {
+                        "Total Immigrant Population": "The percentage of the total population who was not born in the United States or Puerto Rico",
+                        "Immigrant Citizen Population": "The percentage of people who were not born in the United States or Puerto Rico who are now naturalized U.S. citizens",
+                        "Immigrant Non-Citizen Population": "The percentage of people who were not born in the United States or Puerto Rico who are not currently naturalized U.S. citizens",
+                        "1990 - 1999: Immigrants Entering U.S. by Decade": " The number of people who were not born in the United States or Puerto Rico and entered the country during the time period",
+                        "2000 - 2009: Immigrants Entering U.S. by Decade": " The number of people who were not born in the United States or Puerto Rico and entered the country during the time period",
+                        "2010 or Later: Immigrants Entering U.S. by Decade": " The number of people who were not born in the United States or Puerto Rico and entered the country during the time period",
+                        "Before 1990: Immigrants Entering U.S. by Decade": " The number of people who were not born in the United States or Puerto Rico and entered the country during the time period"
+                    },
+                    "url": "https://usc.data.socrata.com/stories/s/uisa-6jyp/",
+                    "source": "American Community Survey, 5-year estimates, Tables B05001 & B05005",
+                    "years_available": [
+                        "2006-10",
+                        "2007-11",
+                        "2008-12",
+                        "2009-13",
+                        "2010-14",
+                        "2011-15",
+                        "2012-16",
+                        "2013-17"
+                    ]
+                },
+                "vals": {
+                    "1990 - 1999: Immigrants Entering U.S. by Decade": {
+                        "count": 18242
+                    },
+                    "2000 - 2009: Immigrants Entering U.S. by Decade": {
+                        "count": 18005
+                    },
+                    "2010 or Later: Immigrants Entering U.S. by Decade": {
+                        "count": 9260
+                    },
+                    "Before 1990: Immigrants Entering U.S. by Decade": {
+                        "count": 18454
+                    },
+                    "Immigrant Citizen Population": {
+                        "count": 18528
+                    },
+                    "Immigrant Non-Citizen Population": {
+                        "count": 18528
+                    },
+                    "Immigrant Population": {
+                        "count": 18581
+                    }
+                }
+            },
+            "Marital Status": {
+                "description": {
+                    "definitions": {
+                        "Divorced/Separated Population": "The percentage of the population over the age of 15 who is divorced or separated",
+                        "Married Population": "The percentage of the population over the age of 15 who is married",
+                        "Never-Married Population": "The percentage of the population over the age of 15 who has never been married or who has been in a marriage that has been annulled",
+                        "Widowed Population": "The percentage of the population over the age of 15 whose marriage was ended by the death of a spouse and who have not entered into a new marriage"
+                    },
+                    "url": "https://usc.data.socrata.com/stories/s/9p67-xj9k/",
+                    "source": "American Community Survey, 5-year estimates, Table B12001",
+                    "years_available": [
+                        "2006-10",
+                        "2007-11",
+                        "2008-12",
+                        "2009-13",
+                        "2010-14",
+                        "2011-15",
+                        "2012-16",
+                        "2013-17"
+                    ]
+                },
+                "vals": {
+                    "Divorced/Separated Population": {
+                        "count": 20901
+                    },
+                    "Married Population": {
+                        "count": 20901
+                    },
+                    "Never-Married Population": {
+                        "count": 20901
+                    },
+                    "Widowed Population": {
+                        "count": 20901
+                    }
+                }
+            },
+            "Race & Ethnicity": {
+                "description": {
+                    "definitions": {
+                        "American Indian/Native Population": "The percentage of the population who identifies as Non-Hispanic American Indian/Native",
+                        "Asian Population": "The percentage of the population who identifies as Non-Hispanic Asian",
+                        "Black Population": "The percentage of the population who identifies as Non-Hispanic Black",
+                        "Hispanic/Latino Population": "The percentage of the population (of any race) who identifies as Hispanic/Latino",
+                        "Native Hawaiian/Other Pacific Islander Population": "The percentage of the population that identifies as Non-Hispanic Native Hawaiian/Other Pacific Islander",
+                        "Other Race Population": "The percentage of the population that identifies as Non-Hispanic and 'Other Race'",
+                        "Population of Two or More Races": "The percentage of the population identifies as Non-Hispanic and two or more races",
+                        "White Population": "The percentage of the population who identifies as Non-Hispanic White"
+                    },
+                    "url": "https://usc.data.socrata.com/stories/s/pd65-xuak/",
+                    "source": "American Community Survey, 5-year estimates, Table B03002",
+                    "years_available": [
+                        "2006-10",
+                        "2007-11",
+                        "2008-12",
+                        "2009-13",
+                        "2010-14",
+                        "2011-15",
+                        "2012-16",
+                        "2013-17"
+                    ]
+                },
+                "vals": {
+                    "American Indian/Native Population": {
+                        "count": 18581
+                    },
+                    "Asian Population": {
+                        "count": 18581
+                    },
+                    "Black Population": {
+                        "count": 18581
+                    },
+                    "Hispanic Population": {
+                        "count": 18581
+                    },
+                    "Native Hawaiian/Other Pacific Islander Population": {
+                        "count": 18581
+                    },
+                    "Other Race Population": {
+                        "count": 18581
+                    },
+                    "Two or More Races Population": {
+                        "count": 18581
+                    },
+                    "White Population": {
+                        "count": 18581
+                    }
+                }
+            },
+            "Total Population": {
+                "description": {
+                    "definitions": {
+                        "Total Population": "The total number of people in an area"
+                    },
+                    "url": "https://usc.data.socrata.com/stories/s/t8xm-yvpp/",
+                    "source": "American Community Survey, 5-year estimates, Table B01003",
+                    "years_available": [
+                        "2006-10",
+                        "2007-11",
+                        "2008-12",
+                        "2009-13",
+                        "2010-14",
+                        "2011-15",
+                        "2012-16",
+                        "2013-17",
+                        "2014-18"
+                    ]
+                },
+                "vals": {
+                    "Total Population": {
+                        "count": 20903
+                    }
+                }
+            },
+            "Youth in Households": {
+                "description": "",
+                "vals": {
+                    "Youth in Non-Family Households": {
+                        "count": 20743
+                    },
+                    "Youth in Single Parent Households": {
+                        "count": 20743
+                    }
+                }
+            }
+        }
+    },
+    "Education": {
+        "description": "",
+        "vals": {
+            "Chronic Absenteeism": {
+                "description": "",
+                "vals": {
+                    "Chronically Absent Students": {
+                        "count": 4274
+                    }
+                }
+            },
+            "College Enrollment": {
+                "description": "",
+                "vals": {
+                    "Young Adults Enrolled in School": {
+                        "count": 20790
+                    }
+                }
+            },
+            "Educational Attainment": {
+                "description": "",
+                "vals": {
+                    "College Graduation Rate": {
+                        "count": 20895
+                    },
+                    "Less Than High School": {
+                        "count": 20895
+                    }
+                }
+            },
+            "English Learners": {
+                "description": "",
+                "vals": {
+                    "EL Reclassification Rate": {
+                        "count": 9518
+                    },
+                    "Total EL Students": {
+                        "count": 10984
+                    }
+                }
+            },
+            "Strong Start Index": {
+                "description": "",
+                "vals": {
+                    "Strong Start Index Score": {
+                        "count": 4534
+                    }
+                }
+            },
+            "Student Proficiency": {
+                "description": "",
+                "vals": {
+                    "Elementary English Proficiency": {
+                        "count": 9945
+                    },
+                    "Elementary Math Proficiency": {
+                        "count": 9946
+                    },
+                    "High School English Proficiency": {
+                        "count": 5756
+                    },
+                    "High School Math Proficiency": {
+                        "count": 5746
+                    },
+                    "Middle School English Proficiency": {
+                        "count": 9425
+                    },
+                    "Middle School Math Proficiency": {
+                        "count": 9437
+                    }
+                }
+            }
+        }
+    },
+    "Employment & Income": {
+        "description": "",
+        "vals": {
+            "Area Income Limits": {
+                "description": "",
+                "vals": {
+                    "Above Middle Income Households": {
+                        "count": 9246
+                    },
+                    "Extremely Low Income Households": {
+                        "count": 9246
+                    },
+                    "Low Income Households": {
+                        "count": 9246
+                    },
+                    "Middle Income Households": {
+                        "count": 9246
+                    },
+                    "Very Low Income Households": {
+                        "count": 9246
+                    }
+                }
+            },
+            "Employment Status": {
+                "description": "",
+                "vals": {
+                    "Labor Force Participation Rate": {
+                        "count": 20901
+                    },
+                    "Unemployment Rate": {
+                        "count": 20846
+                    }
+                }
+            },
+            "Income": {
+                "description": "",
+                "vals": {
+                    "Median Household Income": {
+                        "count": 16178
+                    }
+                }
+            },
+            "Jobs & Industries": {
+                "description": "",
+                "vals": {
+                    "Industry Jobs in Administrative & Support & Waste Management & Remediation Services": {
+                        "count": 32762
+                    },
+                    "Industry Jobs in Agriculture, Forestry, Fishing & Hunting": {
+                        "count": 32762
+                    },
+                    "Industry Jobs in Arts, Entertainment & Recreation": {
+                        "count": 32762
+                    },
+                    "Industry Jobs in Construction": {
+                        "count": 32762
+                    },
+                    "Industry Jobs in Educational Services": {
+                        "count": 32762
+                    },
+                    "Industry Jobs in Finance & Insurance": {
+                        "count": 32762
+                    },
+                    "Industry Jobs in Healthcare & Social Assistance": {
+                        "count": 32762
+                    },
+                    "Industry Jobs in Information": {
+                        "count": 32762
+                    },
+                    "Industry Jobs in Management of Companies & Enterprises": {
+                        "count": 32762
+                    },
+                    "Industry Jobs in Manufacturing": {
+                        "count": 32762
+                    },
+                    "Industry Jobs in Mining, Quarrying, & Oil & Gas Extraction": {
+                        "count": 32762
+                    },
+                    "Industry Jobs in Other Services": {
+                        "count": 32762
+                    },
+                    "Industry Jobs in Professional, Scientific & Technical Services": {
+                        "count": 32762
+                    },
+                    "Industry Jobs in Public Administration": {
+                        "count": 32762
+                    },
+                    "Industry Jobs in Real Estate & Rental & Leasing": {
+                        "count": 32762
+                    },
+                    "Industry Jobs in Retail Trade": {
+                        "count": 32762
+                    },
+                    "Industry Jobs in Transportation & Warehousing": {
+                        "count": 32762
+                    },
+                    "Industry Jobs in Utilities": {
+                        "count": 32762
+                    },
+                    "Industry Jobs in Wholesale Trade": {
+                        "count": 32762
+                    }
+                }
+            },
+            "Opportunity Youth": {
+                "description": "",
+                "vals": {
+                    "Opportunity Youth": {
+                        "count": 16149
+                    }
+                }
+            },
+            "Poverty": {
+                "description": "",
+                "vals": {
+                    "Below 100% Poverty Threshold": {
+                        "count": 20838
+                    },
+                    "Below 200% Poverty Threshold": {
+                        "count": 20838
+                    }
+                }
+            },
+            "Public Assistance": {
+                "description": "",
+                "vals": {
+                    "Cash Public Assistance": {
+                        "count": 20808
+                    },
+                    "Food Stamps/SNAP Benefits": {
+                        "count": 20808
+                    },
+                    "Supplemental Security Income": {
+                        "count": 20808
+                    }
+                }
+            },
+            "Workers by Industry": {
+                "description": "",
+                "vals": {
+                    "Accommodation, Food Srvcs Workers": {
+                        "count": 18499
+                    },
+                    "Admin, Support, Waste Mngmnt, Remediation Srvcs Workers": {
+                        "count": 18499
+                    },
+                    "Agriculture, Forestry, Fishing, Hunting Workers": {
+                        "count": 18499
+                    },
+                    "Arts, Entertainment, Recreation Workers": {
+                        "count": 18499
+                    },
+                    "Construction Workers": {
+                        "count": 18499
+                    },
+                    "Education Srvcs Workers": {
+                        "count": 18499
+                    },
+                    "Finance, Insurance Workers": {
+                        "count": 18499
+                    },
+                    "Healthcare, Social Assistance Workers": {
+                        "count": 18499
+                    },
+                    "Information Workers": {
+                        "count": 18499
+                    },
+                    "Manufacturing Workers": {
+                        "count": 18499
+                    },
+                    "Mining, Quarrying, Oil & Gas Extraction Workers": {
+                        "count": 18499
+                    },
+                    "Mngmnt of Companies, Enterprises Workers": {
+                        "count": 18499
+                    },
+                    "Other Srvcs Workers": {
+                        "count": 18499
+                    },
+                    "Professional, Scientific & Technical Srvcs Workers": {
+                        "count": 18499
+                    },
+                    "Public Admin Workers": {
+                        "count": 18499
+                    },
+                    "Real Estate, Rental & Leasing Workers": {
+                        "count": 18499
+                    },
+                    "Retail Trade Workers": {
+                        "count": 18499
+                    },
+                    "Transportation & Warehousing Workers": {
+                        "count": 18499
+                    },
+                    "Utilities Workers": {
+                        "count": 18499
+                    },
+                    "Wholesale Trade Workers": {
+                        "count": 18499
+                    }
+                }
+            }
+        }
+    },
+    "Environment": {
+        "description": "",
+        "vals": {
+            "Air Quality": {
+                "description": "",
+                "vals": {
+                    "PM2.5 Concentration": {
+                        "count": 4681
+                    }
+                }
+            },
+            "Pollution Burden": {
+                "description": "",
+                "vals": {
+                    "Pollution Burden Score": {
+                        "count": 2342
+                    }
+                }
+            },
+            "Water Quality": {
+                "description": "",
+                "vals": {
+                    "Drinking Water Contaminants": {
+                        "count": 2332
+                    }
+                }
+            }
+        }
+    },
+    "Food Insecurity": {
+        "description": "",
+        "vals": {
+            "Free & Reduced Price Lunch": {
+                "description": "",
+                "vals": {
+                    "Free & Reduced Price Lunch": {
+                        "count": 10660
+                    }
+                }
+            },
+            "Grocery Store Access": {
+                "description": "",
+                "vals": {
+                    "Low Access Population": {
+                        "count": 2342
+                    }
+                }
+            },
+            "SNAP Acceptance": {
+                "description": "",
+                "vals": {
+                    "SNAP Accepting Institutions": {
+                        "count": 4688
+                    }
+                }
+            }
+        }
+    },
+    "Health": {
+        "description": "",
+        "vals": {
+            "Asthma": {
+                "description": "",
+                "vals": {
+                    "Asthma-Related ER Visits": {
+                        "count": 4684
+                    }
+                }
+            },
+            "Cardiovascular Disease": {
+                "description": "",
+                "vals": {
+                    "Cardiovascular-Related ER Visits": {
+                        "count": 2342
+                    }
+                }
+            },
+            "Childhood Obesity": {
+                "description": "",
+                "vals": {
+                    "Students not in Healthy Fitness Zone": {
+                        "count": 14300
+                    }
+                }
+            },
+            "Disability Status": {
+                "description": "",
+                "vals": {
+                    "Population with Disability": {
+                        "count": 16229
+                    }
+                }
+            },
+            "Immunizations": {
+                "description": "",
+                "vals": {
+                    "7th Grade Immunization Rate": {
+                        "count": 2125
+                    },
+                    "Kindergarten Immunization Rate": {
+                        "count": 8690
+                    }
+                }
+            },
+            "Uninsured Rate": {
+                "description": "",
+                "vals": {
+                    "Uninsured Rate": {
+                        "count": 16229
+                    }
+                }
+            }
+        }
+    },
+    "Housing & Real Estate": {
+        "description": "",
+        "vals": {
+            "Building Permits": {
+                "description": "",
+                "vals": {
+                    "New Residential Building Permits": {
+                        "count": 3205
+                    },
+                    "Valuation of New Building Permit Construction": {
+                        "count": 3205
+                    }
+                }
+            },
+            "Foreclosure": {
+                "description": "",
+                "vals": {
+                    "Foreclosures": {
+                        "count": 1833
+                    }
+                }
+            },
+            "Homelessness": {
+                "description": "",
+                "vals": {
+                    "Sheltered Population": {
+                        "count": 4310
+                    },
+                    "Total Homeless Population": {
+                        "count": 4310
+                    },
+                    "Unsheltered Population": {
+                        "count": 4310
+                    }
+                }
+            },
+            "Homeownership": {
+                "description": "",
+                "vals": {
+                    "Homeownership Rate": {
+                        "count": 20808
+                    },
+                    "Renter Rate": {
+                        "count": 20808
+                    }
+                }
+            },
+            "Housing Stability": {
+                "description": "",
+                "vals": {
+                    "Housing Stability": {
+                        "count": 20838
+                    }
+                }
+            },
+            "LIHTC": {
+                "description": "",
+                "vals": {
+                    "LIHTC Units in Service": {
+                        "count": 18752
+                    }
+                }
+            },
+            "Overcrowding": {
+                "description": "",
+                "vals": {
+                    "Overcrowded Households": {
+                        "count": 18531
+                    }
+                }
+            },
+            "Rent Burden": {
+                "description": "",
+                "vals": {
+                    "Rent Burden": {
+                        "count": 18396
+                    },
+                    "Severe Rent Burden": {
+                        "count": 18396
+                    }
+                }
+            },
+            "Rent Price": {
+                "description": "",
+                "vals": {
+                    "Median Rent Price": {
+                        "count": 16095
+                    }
+                }
+            },
+            "Subsidized Housing": {
+                "description": "",
+                "vals": {
+                    "Housing Choice Vouchers": {
+                        "count": 13876
+                    },
+                    "Other Project-Based Programs": {
+                        "count": 13876
+                    },
+                    "Public Housing": {
+                        "count": 13876
+                    }
+                }
+            },
+            "Total Housing Units": {
+                "description": "",
+                "vals": {
+                    "Total Housing Units": {
+                        "count": 18500
+                    }
+                }
+            },
+            "Vacant Properties": {
+                "description": "",
+                "vals": {
+                    "Vacant Commercial Properties": {
+                        "count": 23393
+                    },
+                    "Vacant Residential Properties": {
+                        "count": 23393
+                    }
+                }
+            }
+        }
+    },
+    "Public Safety": {
+        "description": "",
+        "vals": {
+            "Arrests": {
+                "description": "",
+                "vals": {
+                    "Arrest Rate": {
+                        "count": 6908
+                    },
+                    "Juvenile Arrest Rate": {
+                        "count": 6810
+                    }
+                }
+            },
+            "Part I Crimes": {
+                "description": "",
+                "vals": {
+                    "Part I Property Crimes": {
+                        "count": 8064
+                    },
+                    "Part I Violent Crimes": {
+                        "count": 8064
+                    }
+                }
+            },
+            "Part II Crimes": {
+                "description": "",
+                "vals": {
+                    "Part II Crimes": {
+                        "count": 8064
+                    }
+                }
+            }
+        }
+    },
+    "Social Connectedness": {
+        "description": "",
+        "vals": {
+            "Computer & Internet Access": {
+                "description": "",
+                "vals": {
+                    "No Computer": {
+                        "count": 2313
+                    },
+                    "No Internet Access": {
+                        "count": 2313
+                    },
+                    "Only Cellular Data Plan": {
+                        "count": 2313
+                    },
+                    "Only Smartphone": {
+                        "count": 2313
+                    }
+                }
+            },
+            "Financial Institutions": {
+                "description": "",
+                "vals": {
+                    "Banks": {
+                        "count": 2344
+                    },
+                    "Credits Unions": {
+                        "count": 2344
+                    }
+                }
+            },
+            "Healthcare Institutions": {
+                "description": "",
+                "vals": {
+                    "Healthcare Institutions": {
+                        "count": 2098
+                    }
+                }
+            },
+            "High Cost Lenders": {
+                "description": "",
+                "vals": {
+                    "High Cost Lenders": {
+                        "count": 2344
+                    }
+                }
+            },
+            "Language Spoken at Home": {
+                "description": "",
+                "vals": {
+                    "Chinese (incl. Mandarin, Cantonese)": {
+                        "count": 4644
+                    },
+                    "Korean": {
+                        "count": 4644
+                    },
+                    "Only English": {
+                        "count": 4644
+                    },
+                    "Spanish": {
+                        "count": 4644
+                    },
+                    "Tagalog (incl. Filipino)": {
+                        "count": 4644
+                    }
+                }
+            },
+            "Libraries": {
+                "description": "",
+                "vals": {
+                    "Libraries": {
+                        "count": 337
+                    }
+                }
+            },
+            "Linguistic Isolation": {
+                "description": "",
+                "vals": {
+                    "Limited English Speaking Households": {
+                        "count": 18495
+                    }
+                }
+            },
+            "Museums": {
+                "description": "",
+                "vals": {
+                    "Museums": {
+                        "count": 198
+                    }
+                }
+            },
+            "Nonprofits": {
+                "description": "",
+                "vals": {
+                    "Nonprofits": {
+                        "count": 1581
+                    }
+                }
+            },
+            "Parks Access": {
+                "description": "",
+                "vals": {
+                    "Acres of Parks Per 1,000 People": {
+                        "count": 2326
+                    }
+                }
+            },
+            "Religious Institutions": {
+                "description": "",
+                "vals": {
+                    "Religious Institutions": {
+                        "count": 1849
+                    }
+                }
+            },
+            "Theaters": {
+                "description": "",
+                "vals": {
+                    "Theaters": {
+                        "count": 383
+                    }
+                }
+            },
+            "Voter Turnout": {
+                "description": "",
+                "vals": {
+                    "Voter Turnout Rate": {
+                        "count": 7010
+                    }
+                }
+            }
+        }
+    },
+    "Transportation": {
+        "description": "",
+        "vals": {
+            "Average Commute Time": {
+                "description": "",
+                "vals": {
+                    "Average Time to Work": {
+                        "count": 11604
+                    }
+                }
+            },
+            "Commute Time": {
+                "description": "",
+                "vals": {
+                    "Average Commute Time": {
+                        "count": 18478
+                    }
+                }
+            },
+            "Public Transit Use": {
+                "description": "",
+                "vals": {
+                    "Public Transit Use": {
+                        "count": 18524
+                    }
+                }
+            },
+            "Traffic Collisions": {
+                "description": "",
+                "vals": {
+                    "Collisions Involving Pedestrians": {
+                        "count": 4051
+                    }
+                }
+            },
+            "Vehicle Ownership": {
+                "description": "",
+                "vals": {
+                    "Average Vehicles per Household": {
+                        "count": 18495
+                    },
+                    "Households with No Vehicles": {
+                        "count": 18495
+                    }
+                }
+            }
+        }
+    }
+}
