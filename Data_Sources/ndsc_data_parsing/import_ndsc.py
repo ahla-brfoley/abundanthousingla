@@ -1,7 +1,4 @@
-import requests
-from os import path
-import argparse
-import pandas as pd
+
 
 def create_dat_files():
     """
@@ -33,7 +30,12 @@ def import_data(which_data):
     return True
 
 if __name__ == '__main__':
-    
+    """
+    A nice-to-have would be command line import 
+    """
+    import requests
+    from os import path
+    dat_files = create_dat_files()
     for key, val in dat_files.items():
-    import_data(val)
+       import_data(val)
 
